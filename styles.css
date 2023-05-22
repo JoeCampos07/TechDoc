@@ -1,0 +1,128 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+  
+  body {
+    background-color: navy;
+  }
+  
+  nav {
+    height: 600px;
+    width: 300px;
+    background-color: skyblue;
+    position: fixed;
+    padding: 0;
+    display: table;
+    
+  }
+  
+  nav header {
+    margin: auto;
+  }
+  
+  nav div{
+    display: flex;
+    height: 100px;
+    width: 300px;
+    border: outset ;
+    text-align: left;
+  }
+  
+  .nav-sec {
+    height: 75px;
+  }
+  
+  nav div a {
+    margin: auto 15px auto;
+    font-size: 25px;
+  }
+  
+  section{
+    background-size: cover; 
+    position: flex;
+    flex-direction: column;
+    margin-left: 400px;
+    margin-right: 100px;
+    margin-top: 0;
+    padding-top: 0;
+  }
+  
+  
+  .main-section div {
+    vertical-align: middle;
+    text-align: left;
+    background-color: navy;
+    color: white;
+    font-size: 30px;
+    padding-top: 20px;
+    
+  }
+  
+  section div .subtext {
+    margin-left: 30px;
+  }
+  
+  
+  h1.main-header{
+    font-family: Cambria;
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+    padding: 30px 0;
+    margin: 10px 0 -40px 0
+  }
+  
+  h1 {
+    font-family: Cambria;
+    font-size: 30px;
+    color: navy;
+  }
+  
+  h2 {
+    font-family: Cambria;
+    font-size: 50px;
+    color: white;
+    margin-bottom: -10px;
+    padding: 40px 0 5px 0;
+  }
+  
+  p {
+    font-family: Arial Narrow;
+  }
+  
+  footer{
+    margin-top: 90px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+  }
+  
+  footer p{
+    margin-top: -20px;
+  }
+  
+  div a {
+    color: navy;
+  }
+  
+  div a:hover{
+    background-color: navy;
+    color: skyblue;
+  }
+  
+  footer a {
+    color: white;
+  }
+  
+  footer a:hover{
+    color: red;
+  }
+  
+  code:hover{
+    color:navy;
+    background-color: skyblue;
+  }
+  
+  
